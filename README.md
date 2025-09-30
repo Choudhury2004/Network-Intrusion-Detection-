@@ -9,3 +9,14 @@ Tech Stack:
 1. Programming Language: Python
 2. Libraries: scikit-learn, pandas, numpy, matplotlib, seaborn
 3. Packet Capture: scapy / pyshark
+
+NIDS-Project/
+│── data/                 # Dataset (NSL-KDD / CICIDS2017 / pcap files)
+│── models/               # Trained ML models
+│── notebooks/            # Jupyter notebooks for experiments
+│── src/                  # Core source code
+│   ├── preprocess.py     # Data preprocessing & feature engineering
+│   ├── train.py          # Training ML/DL models
+│   ├── detect.py         # Real-time detection script
+│── results/              # Evaluation metrics & graphs
+│── README.md             # Project documentation
